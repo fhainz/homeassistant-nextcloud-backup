@@ -3,54 +3,54 @@
     "step": {
       "user": {
         "title": "Nextcloud Backup",
-        "description": "Ziel-Zugangsdaten wählen: von einer bestehenden webdav-Integration übernehmen oder manuell eingeben.",
-        "data": { "source": "Quelle" }
+        "description": "Choose target credentials: take over from an existing webdav integration or enter manually.",
+        "data": { "source": "Source" }
       },
       "credentials": {
-        "title": "Zugangsdaten",
+        "title": "Credentials",
         "data": {
-          "url": "WebDAV-URL",
-          "username": "Benutzername",
-          "password": "Passwort (App-Passwort empfohlen)",
-          "backup_path": "Zielordner",
-          "verify_ssl": "TLS-Zertifikat prüfen"
+          "url": "WebDAV URL",
+          "username": "Username",
+          "password": "Password (app password recommended)",
+          "backup_path": "Target folder",
+          "verify_ssl": "Verify TLS certificate"
         }
       },
       "tuning": {
-        "title": "Upload-Einstellungen",
+        "title": "Upload settings",
         "data": {
-          "use_chunked": "Chunked-Upload verwenden",
-          "chunk_mb": "Chunk-Größe (MB)",
-          "stall_timeout": "Stillstand-Timeout (Sekunden)",
-          "attempts": "Versuche",
-          "request_total": "Gesamt-Timeout Einzel-Upload (Sekunden)"
+          "use_chunked": "Use chunked upload",
+          "chunk_mb": "Chunk size (MB)",
+          "stall_timeout": "Stall timeout (seconds)",
+          "attempts": "Attempts",
+          "request_total": "Total timeout, single upload (seconds)"
         }
       },
       "validate": {
-        "title": "Verbindung wird geprüft",
-        "description": "Zielordner wird angelegt/geprüft und ein 8-MB-Testupload durchgeführt."
+        "title": "Verifying connection",
+        "description": "Creating/verifying the target folder and running an 8 MB test upload."
       }
     },
     "error": {
-      "invalid_auth": "Zugangsdaten wurden abgelehnt.",
-      "cannot_connect": "Verbindung zum Nextcloud-Ziel fehlgeschlagen.",
-      "probe_mismatch": "Testupload unvollständig angekommen (Größenabweichung).",
-      "source_not_found": "Gewählte Quelle nicht gefunden."
+      "invalid_auth": "Credentials were rejected.",
+      "cannot_connect": "Could not connect to the Nextcloud target.",
+      "probe_mismatch": "Test upload arrived incomplete (size mismatch).",
+      "source_not_found": "Selected source not found."
     },
     "abort": {
-      "already_configured": "Dieses Ziel ist bereits eingerichtet."
+      "already_configured": "This target is already configured."
     }
   },
   "options": {
     "step": {
       "init": {
-        "title": "Upload-Einstellungen",
+        "title": "Upload settings",
         "data": {
-          "use_chunked": "Chunked-Upload verwenden",
-          "chunk_mb": "Chunk-Größe (MB)",
-          "stall_timeout": "Stillstand-Timeout (Sekunden)",
-          "attempts": "Versuche",
-          "request_total": "Gesamt-Timeout Einzel-Upload (Sekunden)"
+          "use_chunked": "Use chunked upload",
+          "chunk_mb": "Chunk size (MB)",
+          "stall_timeout": "Stall timeout (seconds)",
+          "attempts": "Attempts",
+          "request_total": "Total timeout, single upload (seconds)"
         }
       }
     }
