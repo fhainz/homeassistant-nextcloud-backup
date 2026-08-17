@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nextcloud Backup",
+        "description": "Ziel-Zugangsdaten wählen: von einer bestehenden webdav-Integration übernehmen oder manuell eingeben.",
+        "data": { "source": "Quelle" }
+      },
+      "credentials": {
+        "title": "Zugangsdaten",
+        "data": {
+          "url": "WebDAV-URL",
+          "username": "Benutzername",
+          "password": "Passwort (App-Passwort empfohlen)",
+          "backup_path": "Zielordner",
+          "verify_ssl": "TLS-Zertifikat prüfen"
+        }
+      },
+      "tuning": {
+        "title": "Upload-Einstellungen",
+        "data": {
+          "use_chunked": "Chunked-Upload verwenden",
+          "chunk_mb": "Chunk-Größe (MB)",
+          "stall_timeout": "Stillstand-Timeout (Sekunden)",
+          "attempts": "Versuche",
+          "request_total": "Gesamt-Timeout Einzel-Upload (Sekunden)"
+        }
+      },
+      "validate": {
+        "title": "Verbindung wird geprüft",
+        "description": "Zielordner wird angelegt/geprüft und ein 8-MB-Testupload durchgeführt."
+      }
+    },
+    "error": {
+      "invalid_auth": "Zugangsdaten wurden abgelehnt.",
+      "cannot_connect": "Verbindung zum Nextcloud-Ziel fehlgeschlagen.",
+      "probe_mismatch": "Testupload unvollständig angekommen (Größenabweichung).",
+      "source_not_found": "Gewählte Quelle nicht gefunden."
+    },
+    "abort": {
+      "already_configured": "Dieses Ziel ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Upload-Einstellungen",
+        "data": {
+          "use_chunked": "Chunked-Upload verwenden",
+          "chunk_mb": "Chunk-Größe (MB)",
+          "stall_timeout": "Stillstand-Timeout (Sekunden)",
+          "attempts": "Versuche",
+          "request_total": "Gesamt-Timeout Einzel-Upload (Sekunden)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Nextcloud Backup",
+  "render_readme": true,
+  "homeassistant": "2026.7.0",
+  "zip_release": false
+}

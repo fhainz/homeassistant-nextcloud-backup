@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Skalierbare Quelle fuer icon.png/logo.png -- selbe Form, per PIL gerastert.
+       Blau = Nextcloud-Markenfarbe (#1793D1), gut von HAs eigenem Blau
+       unterscheidbar; weisser Upload-Pfeil = Backup/Upload zur Cloud. -->
+  <g fill="#1793D1">
+    <rect x="48" y="130" width="160" height="60" rx="30" ry="30"/>
+    <circle cx="88" cy="128" r="39"/>
+    <circle cx="130" cy="108" r="49"/>
+    <circle cx="176" cy="130" r="41"/>
+    <circle cx="60" cy="150" r="33"/>
+    <circle cx="196" cy="150" r="33"/>
+  </g>
+  <g fill="#FFFFFF">
+    <polygon points="102,132 154,132 128,86"/>
+    <rect x="117" y="122" width="22" height="54"/>
+  </g>
+</svg>
